@@ -1,3 +1,14 @@
+* {
+    font-family: "Roboto", Times, serif;
+}
+
+body{
+    margin: 0px 0px;
+}
+
+.upper, .middle, .quote{
+    padding: 0px 32px;
+}
 .upper{
     background-color: #FCAF36;
     color: white;
@@ -31,12 +42,84 @@
 .image-placeholder{
     background-color: rgba(128, 128, 128, 0.312);
     min-width: 200px;
-    align-self: center;
+    align-self: stretch;
     flex-grow: 1;
-    margin: 10px;
     justify-self: center;
+    margin: 24px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .image-placeholder p {
+    justify-self: center;
+    align-self: center;
+}
+
+.button-signup {
+    background-color: #F30E04;
+    color: white;
+    padding:  5px 16px;
+    border-radius: 8px;
+    border: none;
     text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex: 1;
+}
+.box{
+    min-width: 100px;
+    min-height: 150px;
+    border-style: solid;
+    border-color: #F30E04;
+    border-radius: 20px;
+}
+.under-box-text{
+    justify-self: center;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    }
+
+.call-to-action{
+    display: flex;
+    background-color: #E91A0A;
+    margin: 0px 40px;
+}
+
+.left-call{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-call{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    flex-grow: 1;
+
+}
+
+.btn-signup{
+    background-color: #E91A0A;
+    border-color: white;
+    color: white;
+    border-style: solid;
 }
