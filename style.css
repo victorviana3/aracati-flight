@@ -1,0 +1,42 @@
+.upper{
+    background-color: #FCAF36;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-title{
+    background-color: #FCAF36;
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+.image-placeholder{
+    background-color: rgba(128, 128, 128, 0.312);
+    min-width: 200px;
+    align-self: center;
+    flex-grow: 1;
+    margin: 10px;
+    justify-self: center;
+}
+
+.image-placeholder p {
+    text-align: center;
+}
