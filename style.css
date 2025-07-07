@@ -2,6 +2,9 @@
     font-family: "Roboto", Times, serif;
 }
 
+h1, h2, h3, p{
+    margin: 0px;
+}
 body{
     margin: 0px 0px;
 }
@@ -36,6 +39,7 @@ body{
     background-color: #FCAF36;
     display: flex;
     flex: 1 1 auto;
+    padding-bottom: 20px;
 
 }
 
@@ -71,6 +75,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0px;
 }
 
 .boxes {
@@ -93,26 +98,32 @@ body{
 
 .quote{
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 18px;
     font-style: italic;
     font-weight: light;
+    display: flex;
+    padding: 50px 200px;
     }
 
 .call-to-action{
     display: flex;
     background-color: #E91A0A;
-    margin: 0px 40px;
+    margin: 20px 80px;
+    justify-content: center;
+    padding: 10px 40px;
 }
 
 .left-call{
     display: flex;
     flex-direction: column;
+    color: white;
+
 }
 
 .right-call{
     align-items: center;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-grow: 1;
 
 }
@@ -122,4 +133,19 @@ body{
     border-color: white;
     color: white;
     border-style: solid;
+    padding: 5px 20px;
+}
+
+.main-title h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-title h2{
+    font-size: 18px;
+}
+
+.middle h1{
+    font-size: 36px;
+    font-weight: 900;
 }
