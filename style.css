@@ -14,7 +14,7 @@ body{
 .upper, .middle, .quote{
     padding: 0px 32px;
 }
-.upper{
+.upper, .footer{
     background-color: #FCAF36;
     color: white;
 }
@@ -150,4 +150,10 @@ body{
 .middle h1{
     font-size: 36px;
     font-weight: 900;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
 }
